@@ -1,0 +1,37 @@
+Sehr geerhter Kunde,
+
+UPDATE.COM  ist  eine  nachtrÑgliche 
+Verbesserung des Portfolio-Betriebs-
+systems.  UPDATE.COM  verhindert die 
+DIVISION  DURCH  NULL - Meldung  und 
+den  dadurch mîglichen Datenverlust.
+Wir empfehlen,  dieses  Programm auf 
+den  Portfolio   zu  Åbertragen  und
+dort durch eine "AUTOEXEC.BAT"-Datei 
+nach   dem   Warmstart   automatisch 
+aufrufen zu lassen. Solch eine Datei 
+kînnte folgendermaûen aussehen:
+
+@ECHO OFF
+CLS
+UPDATE
+DATE
+TIME
+PROMPT $P$G
+
+Diese  Datei  lÑût   sich  mit  der
+Portfolio-Internen Textverarbeitung 
+oder  mit  dem   Befehl  "COPY  CON
+AUTOEXEC.BAT"  erstellen.  Nach dem 
+Abspeichern  der  Datei sollte dann
+ein  Warmstart   ( Tasten  STRG+ALT
++EINF/ENTF oder RESET-Knopf auf der 
+Unterseite) ausgelîst werden.
+
+
+Mit freundlichen GrÅûen
+
+
+ATARI Computer GmbH
+Kundenbetreuung
+
